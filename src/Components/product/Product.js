@@ -13,6 +13,7 @@ const {img,name,brand, price} = props.product
         <p><span className='p-price'>Price: $ </span>{price}</p>
 
          </div>
+         <button className='btn-cart'>Add to cart </button>
 
         </div>
     );

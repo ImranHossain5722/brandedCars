@@ -1,12 +1,17 @@
 import React from 'react';
 
 const cart = (props) => {
+   const {addToCart}=props 
     return (
         <div>
-            order summery
-             <p> Product Name:{addToCart}</p>
+                <h2>Product Information</h2>
 
-        </div>
+                {
+                    addToCart.map((item) =>(
+                    <h5 key={item.id}> Product Name: {item.name} <button>delete</button> </h5>
+                    ))
+                }            
+       </div>
     );
 };
 

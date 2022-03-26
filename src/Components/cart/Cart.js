@@ -5,7 +5,13 @@ import {faTrash} from '@fortawesome/free-solid-svg-icons'
 import React from 'react';
 import'./Cart.css'
 const cart = (props) => {
+
    const {addToCart}=props 
+   const randomNumber=()=>{
+    const rndInt = Math.floor(Math.random() * 4) + 1
+   console.log(rndInt)
+}
+   
     return (
         <div className='cart-container'>
                 <h2>Product Information</h2>
@@ -19,7 +25,8 @@ const cart = (props) => {
                 }
                 
                 <div className='btn-container'>
-                    <button className='choose-btn' >Choose For Me 1</button>
+                    <button onClick={()=> randomNumber()} className='choose-btn' >Choose For Me 1</button>
+                    
                     <button className='choose-btn' >Reset All</button>
                 </div>
        </div>

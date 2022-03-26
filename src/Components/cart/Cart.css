@@ -1,0 +1,30 @@
+.cart-container{
+position: sticky;
+top: 0;
+
+margin-bottom: 80px;
+}
+.pro-name{
+    font-size:16px;
+    font-weight:800;
+}
+.btn-trash{
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.btn-container{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.choose-btn{
+background-color: tomato;
+color: white;
+padding: 10px;
+border: none;
+border-radius: 10px;
+}

@@ -16,9 +16,7 @@ const [addToCart, setAddToCart] =useState([])
     },[])
 
     const addToCartHandel=(product)=>{
-        console.log(product)
         const newProduct=[product]
-        console.log(newProduct);
         const newAddToCart =[...addToCart, product]
         setAddToCart(newAddToCart)
     }

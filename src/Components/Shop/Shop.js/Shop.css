@@ -11,6 +11,8 @@
 
 /* cart container update to cart product */
 .cartContainer{
-    background-color: lightcoral;
+    background-color: white;
     margin:0px 20px 0px 20px;
+    box-shadow: -3px 0px 20px 10px rgba(34, 34, 37, 0.2);
+
 }

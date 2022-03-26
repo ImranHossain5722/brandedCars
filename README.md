@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Getting start my project Build in shop page 
+    my project name: BrandedCare Shop
+# My project name: BrandedCare Shop
+
+Check it my project live website link ( https://brandedcar.netlify.app/ )
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
